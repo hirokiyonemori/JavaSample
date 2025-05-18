@@ -85,11 +85,12 @@ public class Main {
     //
 
 
+
     String input = "Hello";
     String reversed = reverseWithStringBuilder(input);
     System.out.println("StringBuilder使用: " + reversed); // 出力: olleH
 
-    LinkedList<String> list = new LinkedList<Integer>();
+    LinkedList<String> list = new LinkedList<String>();
     list.add("apple");
     System.out.println(list.get(0));
     list.addFirst("Banana");
