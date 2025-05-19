@@ -86,8 +86,7 @@ public class Main {
 
 
 
-    String input = "Hello";
-
+    String input = "Hello"
 
 
     String reversed = reverseWithStringBuilder(input);
